@@ -3,7 +3,7 @@ import inspect
 import django.contrib.auth as auth
 from django.contrib.auth.models import User, Group
 from django.http import HttpRequest
-from models import ImpostorLog
+from .models import ImpostorLog
 
 from django.conf import settings
 

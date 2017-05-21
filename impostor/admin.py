@@ -1,4 +1,4 @@
-from models import ImpostorLog
+from .models import ImpostorLog
 from django.contrib import admin
 from django.shortcuts import render_to_response
 
